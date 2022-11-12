@@ -112,5 +112,14 @@ input[type=checkbox]{
  }
  .dropdown li:hover {
   background-color: #4c9e9e;
- }
- }
+ }}
+
+ .footer {
+  display: block;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  background:#33F;
+}
