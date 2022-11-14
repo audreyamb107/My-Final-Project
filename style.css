@@ -137,7 +137,6 @@ display: block;
 .bottompadding {
   padding-bottom: 20px;
 }
-
  .footer {
   position:fixed;
   left:0px;
@@ -155,4 +154,7 @@ display: block;
 img {
   max-width: 100%;
   height: auto;
+}
+.flex-container {
+  text-align: center;
 }
