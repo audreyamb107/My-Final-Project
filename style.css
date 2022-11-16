@@ -1,3 +1,7 @@
+Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 16px;
+Font-Family: 'Cabin', Sans-Serif;
+Font-Size: 16px;
 /* UTILITIES */
 * {
   margin: 0;
@@ -5,8 +9,9 @@
   box-sizing: border-box;
  }
  body {
-  font-family: cursive;
+  font-family: 'cabin';
   padding-bottom: 75px;
+  color: #0077b6
 
  }
  a {
@@ -147,7 +152,7 @@ display: block;
   position:fixed;
   left:0px;
   bottom:0px;
-  height:75px;
+  height:110px;
   width:100%;
   background:#90e0ef;
   color: #0077b6
