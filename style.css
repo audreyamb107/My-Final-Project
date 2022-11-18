@@ -1,6 +1,6 @@
 /* UTILITIES */
 #cursor {
-  position: absolute;
+  position: fixed;
   z-index: 2;
 
 }
