@@ -1,7 +1,3 @@
-Font-Family: 'Roboto Condensed', Sans-Serif;
-Font-Size: 16px;
-Font-Family: 'Cabin', Sans-Serif;
-Font-Size: 16px;
 /* UTILITIES */
 * {
   margin: 0;
@@ -11,7 +7,7 @@ Font-Size: 16px;
  body {
   font-family: 'cabin';
   padding-bottom: 75px;
-  color: #0077b6
+  color: navy;
 
  }
  a {
@@ -27,14 +23,19 @@ Font-Size: 16px;
   justify-content: space-between;
   padding: 20px;
   background-color: #90e0ef;
-  color: #0077b6;
+  color: navy;
  }
  .nav-links a {
-  color: #0077b6;
+  color: navy;
  }
  /* LOGO */
  .logo {
-  font-size: 32px;
+  font-size: 42px;
+  font-weight: bold;
+ }
+ /* LOGO IMAGE */
+ .logoimage {
+  margin-top: 10px;
  }
  /* NAVBAR MENU */
  .menu {
@@ -152,10 +153,10 @@ display: block;
   position:fixed;
   left:0px;
   bottom:0px;
-  height:110px;
+  height:75px;
   width:100%;
   background:#90e0ef;
-  color: #0077b6
+  color: navy;
 }
 .center {
   display: block;
