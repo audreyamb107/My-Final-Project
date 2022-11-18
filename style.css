@@ -1,4 +1,16 @@
 /* UTILITIES */
+#cursor {
+  position: absolute;
+  z-index: 2;
+
+}
+@keyframes glide {
+  from {top: 0px;
+  left: 0px;}
+  to {top: 90vh;
+    left: 100vw;}
+}
+
 * {
   margin: 0;
   padding: 0;
